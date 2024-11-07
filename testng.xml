@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="methods">
+  <test thread-count="5" name="Test">
+	<parameter name="browsertype" value="firefox"/>
+	<groups>
+	<run>
+	<exclude name="smoke"></exclude>
+	</run>
+	</groups>
+	
+    <classes>
+      <class name="com.selenium.ltisample.AppTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
