@@ -12,10 +12,10 @@ import org.testng.annotations.Test;
 /**
  * Unit test for simple App.
  */
-public class AppTest {
+public class TestApp {
 
 	
-	@Parameters("browsertype")
+	
 	@Test(groups = {"smoke","regression"})
     public void searchSelenium(@Optional("chrome") String browserType) {
         WebDriver driver = null;
@@ -33,7 +33,6 @@ public class AppTest {
     }
 	
 	
-	@Parameters("browsertype")
 	@Test(groups = {"regression"})
     public void searchCucumber(@Optional("chrome") String browserType) {
         WebDriver driver = null;
