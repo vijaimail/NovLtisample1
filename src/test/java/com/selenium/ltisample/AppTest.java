@@ -28,6 +28,7 @@ public class AppTest {
         driver.manage().window().maximize();
         driver.get("https://www.google.com");}
         driver.findElement(By.name("q")).sendKeys("Selenium",Keys.ENTER);
+        System.out.println("Selenium searched successfully...");
        
     }
 	
@@ -45,6 +46,7 @@ public class AppTest {
         driver.manage().window().maximize();
         driver.get("https://www.google.com");
         driver.findElement(By.name("q")).sendKeys("Cucumber",Keys.ENTER);
+        System.out.println("Cucumber searched successfully...");
         }
        
     }
@@ -62,6 +64,7 @@ public class AppTest {
         driver.manage().window().maximize();
         driver.get("https://www.google.com");
         driver.findElement(By.name("q")).sendKeys("Apple",Keys.ENTER);
+        System.out.println("Apple searched successfully...");
         }
        
     }
